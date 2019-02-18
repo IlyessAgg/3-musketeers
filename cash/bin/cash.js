@@ -8,6 +8,12 @@ const currencies = require('../lib/currencies.json');
 
 const {API} = require('./constants');
 
+/**
+ * @function cash - Main command that allows the conversion from a currency to another.
+ * @param {string} amount - Amount of money to convert.
+ * @param {string} from - Starting currency.
+ * @param {string} to - Currency to convert to.
+*/
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
