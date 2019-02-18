@@ -1,5 +1,5 @@
 # Cash
 Currency converter implemented in Nodejs.
 <p align="center">
-  <img src="Currency.png" alt="UsageImage"/>
+  <img src="Currency.jpg" alt="UsageImage"/>
 </p>
